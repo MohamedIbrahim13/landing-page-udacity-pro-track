@@ -128,7 +128,7 @@ navLinks.forEach(navlink => {
 addElement();
 const scrollButton = document.querySelector('button');
 const scrollFunction = () => {
-    if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
+    if (document.body.scrollTop > 2650 || document.documentElement.scrollTop > 2650) {
         scrollButton.style.display = "block";
     } else {
         scrollButton.style.display = "none";
