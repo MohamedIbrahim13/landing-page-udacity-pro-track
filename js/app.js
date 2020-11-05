@@ -148,18 +148,6 @@ window.onscroll = function () {
 };
 
 
-// when the mouse over the any part of the body and not scrolling, header is off.
-// reload page to show the header again
-body.addEventListener('mouseover', (e) => {
-    setTimeout(function () {
-        header.style.display = "none";
-    }, 10000);
-});
-
-
-
-
-
 // Collapsible sections
 headings.forEach(heading => {
     let siblings = getSiblings(heading);
